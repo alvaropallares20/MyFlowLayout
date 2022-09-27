@@ -23,6 +23,7 @@ public class MyBorderLayoutWindow {
 
         //mainPanel.setLayout(new BorderLayout(10,10));
         //JButton northbutton = new JButton("Hide North Border");
+
         //mainPanel.add(northbutton, BorderLayout.North);
 
         f.setContentPane(mainPanel);
