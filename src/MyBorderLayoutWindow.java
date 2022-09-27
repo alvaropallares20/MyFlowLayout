@@ -21,6 +21,10 @@ public class MyBorderLayoutWindow {
         mainPanel.add(new JButton("Hide East Border"), BorderLayout.EAST);
         mainPanel.add(new JButton("Hide South Border"), BorderLayout.SOUTH);
 
+        //mainPanel.setLayout(new BorderLayout(10,10));
+        //JButton northbutton = new JButton("Hide North Border");
+        //mainPanel.add(northbutton, BorderLayout.North);
+
         f.setContentPane(mainPanel);
         f.repaint();
         f.revalidate();
