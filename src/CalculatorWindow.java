@@ -22,8 +22,12 @@ public class CalculatorWindow {
 
         JPanel panel2 = new JPanel();
         mainPanel.add(panel2, BorderLayout.CENTER);
-        panel2.setLayout(new GridLayout(5, 4));
+        panel2.setLayout(new GridLayout(5, 4, 5, 5));
         JButton rtc = new JButton("Rtc");
+        //rtc.addActionListener(
+        //    e -> {
+        //   }
+        //  );
         panel2.add(rtc);
         JButton ce = new JButton("CE");
         panel2.add(ce);
