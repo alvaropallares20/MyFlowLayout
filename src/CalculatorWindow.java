@@ -11,7 +11,7 @@ public class CalculatorWindow {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel mainPanel = new JPanel();
-        mainPanel.setLayout(new BorderLayout(10, 10));
+        mainPanel.setLayout(new BorderLayout(10, 50));
 
         JPanel panel1 = new JPanel();
         mainPanel.add(panel1, BorderLayout.NORTH);
